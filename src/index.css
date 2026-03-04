@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'DMRegular';
+  src: url('./assets/Fonts/DMMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InknutAntiqua';
+  src: url('./assets/Fonts/InknutAntiqua-Regular.ttf') format('truetype');
+}
+
+@theme{
+  --color-primary: #444444;
+  --color-accent: #FEFEFE;
+  --font-primary: 'DMRegular', monospace;
+  --font-accent: 'InknutAntiqua', serif;
+}
